@@ -13,7 +13,7 @@ export default function Scene() {
         dpr={[1, 1.5]}
       >
         <directionalLight position={[-5, -5, 5]} intensity={4} />
-        // Add your 3D models here
+        {/* // Add your 3D models here */}
         <Suspense fallback={null}>
           <ScrollControls damping={0.5} pages={3}>
             <Modal />
